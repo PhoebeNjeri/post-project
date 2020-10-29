@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'tinymce',
     'rest_framework',
     'bootstrap4',
+    'bootstrap3',
 ]
 
 MIDDLEWARE = [
