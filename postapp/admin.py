@@ -25,4 +25,5 @@ class UserAdmin(AuthUserAdmin):
     update_form_class = UserChangeForm
 
 
+admin.site.unregister(User)
 admin.site.register(User, UserAdmin)
